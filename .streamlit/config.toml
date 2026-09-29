@@ -1,0 +1,72 @@
+# "Aurora" — dark glassmorphism theme for Streamlit.
+# Deep midnight base, violet primary, cyan/magenta glow accents, rounded surfaces.
+# Animated aurora backdrop + backdrop-filter glass live in app.py.
+
+[theme]
+base = "dark"
+
+primaryColor = "#7C3AED"           # violet
+backgroundColor = "#0A0A12"        # midnight
+secondaryBackgroundColor = "#14141F"
+codeBackgroundColor = "#14141F"
+textColor = "#EAEAF2"
+linkColor = "#22D3EE"
+codeTextColor = "#C9C9E0"
+borderColor = "#2A2A3E"
+
+baseRadius = "large"
+buttonRadius = "full"
+
+showWidgetBorder = true
+showSidebarBorder = false
+
+font = "'Plus Jakarta Sans':https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+headingFont = "'Space Grotesk':https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+
+baseFontSize = 15
+baseFontWeight = 400
+codeFontSize = "0.82rem"
+
+headingFontSizes = ["46px", "32px", "24px", "19px", "16px", "14px"]
+headingFontWeights = [700, 700, 600, 600, 500, 500]
+
+linkUnderline = false
+
+grayColor = "#8B8BA7"
+blueColor = "#38BDF8"
+greenColor = "#4ADE80"
+yellowColor = "#FACC15"
+orangeColor = "#FB923C"
+redColor = "#FB7185"
+violetColor = "#A78BFA"
+
+grayBackgroundColor = "#1C1C2B"
+blueBackgroundColor = "#0E2A38"
+greenBackgroundColor = "#0F2A1C"
+yellowBackgroundColor = "#2E2710"
+orangeBackgroundColor = "#33210F"
+redBackgroundColor = "#331520"
+violetBackgroundColor = "#241A3D"
+
+grayTextColor = "#B4B4CC"
+blueTextColor = "#7DD3FC"
+greenTextColor = "#86EFAC"
+yellowTextColor = "#FDE047"
+orangeTextColor = "#FDBA74"
+redTextColor = "#FDA4AF"
+violetTextColor = "#C4B5FD"
+
+dataframeBorderColor = "#2A2A3E"
+dataframeHeaderBackgroundColor = "#1C1C2B"
+
+chartCategoricalColors = ["#A78BFA", "#22D3EE", "#F472B6", "#4ADE80", "#FB923C", "#FACC15", "#8B8BA7"]
+chartSequentialColors = ["#14141F", "#1E1B3A", "#2B2154", "#3B2B72", "#4C37A0", "#5D43C8", "#6D4FE0", "#7C5CF0", "#8B6DF5", "#9C7EFA"]
+
+[theme.sidebar]
+backgroundColor = "#0D0D17"
+secondaryBackgroundColor = "#16162280"
+codeBackgroundColor = "#161622"
+textColor = "#EAEAF2"
+borderColor = "#2A2A3E"
+primaryColor = "#A78BFA"
